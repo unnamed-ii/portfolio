@@ -1,3 +1,33 @@
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 
+  &__info {
+
+    &-title {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    &-text {
+      margin-bottom: 6px;
+    }
+
+    &-links {
+      display: flex;
+      margin-bottom: 30px;
+
+      li + li {
+        margin-left: 10px;
+      }
+    }
+
+    &-stack {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }
