@@ -1,0 +1,27 @@
+.header {
+  background-color: #683612;
+  color: #fff;
+
+  &__menu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    &-links {
+      display: flex;
+      justify-content: space-between;
+      max-width: 400px;
+      width: 100%;
+      padding: 20px;
+
+      li {
+        font-size: 24px;
+        transition: all .3s;
+
+        &:hover {
+          opacity: .3;
+        }
+      }
+    }
+  }
+}
