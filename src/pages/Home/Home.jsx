@@ -14,10 +14,10 @@ const Home = () => {
                         Hi, I'm Isa Ingashev. A passionate front-end developer based in Izmir / Turkey
                     </div>
                     <ul className="home__info-links">
-                        <li><a href="#">LinkedIn</a></li>
-                        <li><a href="#">GitHub</a></li>
-                        <li><a href="#">LeetCode</a></li>
-                        <li><a href="#">CodeWars</a></li>
+                        <li><a href="https://www.linkedin.com/in/isa-ingashev">LinkedIn</a></li>
+                        <li><a href="https://github.com/unnamed-ii">GitHub</a></li>
+                        <li><a href="https://leetcode.com/unnamed-II/">LeetCode</a></li>
+                        <li><a href="https://www.codewars.com/users/unnamed-ii">CodeWars</a></li>
                     </ul>
                     <ul className="home__info-stack">
                         <li>HTML</li>

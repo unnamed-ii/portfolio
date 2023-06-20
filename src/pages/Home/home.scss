@@ -7,18 +7,19 @@
   &__info {
 
     &-title {
-      font-size: 36px;
+      font-size: 88px;
       font-weight: 700;
       margin-bottom: 12px;
     }
 
     &-text {
-      margin-bottom: 6px;
+      font-size: 29px;
+      margin-bottom: 25px;
     }
 
     &-links {
       display: flex;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
 
       li + li {
         margin-left: 10px;
