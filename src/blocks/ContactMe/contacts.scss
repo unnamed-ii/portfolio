@@ -1,0 +1,44 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .icon {
+    width: 47px;
+    height: 47px;
+    transition: all .5s;
+
+    &.link:hover {
+      opacity: .4;
+    }
+  }
+
+  &__info {
+
+    &-title {
+      font-size: 88px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    &-text {
+      font-size: 29px;
+      margin-bottom: 25px;
+    }
+
+    //&-links {
+    //  display: flex;
+    //  margin-bottom: 50px;
+    //
+    //  li + li {
+    //    margin-left: 20px;
+    //  }
+    //}
+
+    &-stack {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
