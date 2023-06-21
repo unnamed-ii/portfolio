@@ -1,11 +1,9 @@
 import React from 'react';
-
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
-
-import Home from "./pages/Home/Home";
-import About from "./pages/About/About";
-import Projects from "./pages/Projects/projects";
+import Home from "./blocks/Home/Home";
+import About from "./blocks/About/About";
+import Projects from "./blocks/Projects/projects";
 
 const App = () => {
   return (

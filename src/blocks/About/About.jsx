@@ -13,8 +13,7 @@ const About = () => {
                         About me
                     </div>
                     <div className="about__info-title">
-                        A dedicated Front-end Developer
-                        based in İzmir, Türkiye📍
+                        A dedicated Front-end Developer based in İzmir, Türkiye
                     </div>
                     <div className="about__info-text">
                         As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS,
