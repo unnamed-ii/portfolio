@@ -16,7 +16,7 @@ const Project = ({image, title, text}) => {
 
 const Projects = () => {
     return (
-        <section className="projects">
+        <section className="projects" id="projects-section">
             <Container>
                 {ProjectsData.length
                     ?

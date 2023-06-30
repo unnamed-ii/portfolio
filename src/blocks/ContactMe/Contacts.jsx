@@ -4,7 +4,7 @@ import Container from "../../components/container/container";
 
 const Contacts = () => {
     return (
-        <section className="contacts">
+        <section className="contacts" id="contacts-section">
             <Container>
                 <div className="contacts__headline">Contacts</div>
                 <div className="contacts__title">You can contact me any time</div>

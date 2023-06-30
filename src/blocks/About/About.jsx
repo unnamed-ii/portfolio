@@ -5,7 +5,7 @@ import Container from "../../components/container/container";
 
 const About = () => {
     return (
-        <section className="about">
+        <section className="about" id="about-section">
             <Container>
                 {/*<img src={AboutImg} alt="image" className="about__image"/>*/}
                 <div className="about__info">
