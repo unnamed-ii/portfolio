@@ -2,21 +2,22 @@ import React from 'react';
 import './projects.scss';
 import Container from "../../components/container/container";
 import {ReactComponent as LinkToIcon} from "../../images/icons/link.svg";
+import waweProjectCover from '../../images/projects/wawe.png';
 
 const ProjectsData = [
     {
-        image: "",
+        image: waweProjectCover,
         title: "Wawe",
-        text: "\"Wawe\" is a surfing school where you can learn how surf easily with the help of the rop surfers in the world",
-        linkToProject: "linkToProject",
-        linkToCode: "linkToCode",
+        text: "\"Wawe\" is a surfing school where you can learn how surf easily with the help of the top surfers in the world",
+        linkToProject: "https://wawe-school.web.app/",
+        linkToCode: "https://github.com/unnamed-ii/wawe",
     },
 ];
 
 const Project = ({image, title, text, linkToProject, linkToCode}) => {
     return (
         <div className="project">
-            <img src={image} alt="ImageOfProject" className="project__image"/>
+            <div className={"project__image" + (image === waweProjectCover ? " wawe" : "")}/>
             <div className="project__box">
                 <div className="project__box-info">
                     <h1 className="project__box-info__title">{title}</h1>
@@ -49,7 +50,7 @@ const Projects = () => {
                     ?
                     <div className="projects__inner">
                         <div className="projects__inner-title">
-                            Projects I've done
+                            Projects I've done :
                         </div>
                         <div className="projects__inner-list">
                             {ProjectsData.map(project =>
