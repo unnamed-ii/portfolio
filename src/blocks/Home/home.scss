@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
 .home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .icon {
     width: 47px;
@@ -15,26 +17,38 @@
   }
 
   &__info {
-
     &-title {
-      font-size: 88px;
-      font-weight: 700;
-      margin-bottom: 12px;
+      max-width: 600px;
+      font-size: 100px;
+      margin-bottom: 20px;
+      letter-spacing: .9px;
+      transition: text-shadow .3s ease-out;
+      font-family: PT Mono,PT Serif,serif,Helvetica,system-ui;
     }
 
-    &-text {
-      font-size: 29px;
-      margin-bottom: 25px;
-    }
+    &-block {
+      p {
+        max-width: 650px;
+        font-size: 29px;
+        line-height: 61px;
+        letter-spacing: -1px;
+        font-family: PT Mono, sans-serif;
 
-    //&-links {
-    //  display: flex;
-    //  margin-bottom: 50px;
-    //
-    //  li + li {
-    //    margin-left: 20px;
-    //  }
-    //}
+        &.links {
+          margin-bottom: 20px;
+
+          a + a {
+            margin-left: 12px;
+          }
+        }
+
+        a {
+          color: #37aed5;
+          font-size: 26px;
+          text-decoration: underline;
+        }
+      }
+    }
 
     &-stack {
       display: flex;

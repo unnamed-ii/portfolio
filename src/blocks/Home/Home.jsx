@@ -1,17 +1,11 @@
 import React from 'react';
 import './home.scss';
 import Container from "../../components/container/container";
-
-import {ReactComponent as LinkedInIcon} from '../../images/icons/linkedin.svg';
-import {ReactComponent as GitHubIcon} from '../../images/icons/github.svg';
-import {ReactComponent as LeetCodeIcon} from '../../images/icons/leetcode.svg';
-import {ReactComponent as CodeWarsIcon} from '../../images/icons/codewars-red.svg';
 import {ReactComponent as HtmlIcon} from '../../images/icons/html5.svg';
 import {ReactComponent as CssIcon} from '../../images/icons/css3.svg';
 import {ReactComponent as SassIcon} from '../../images/icons/sass.svg';
 import {ReactComponent as JavaScriptIcon} from '../../images/icons/javascript.svg';
 import {ReactComponent as ReactIcon} from '../../images/icons/react.svg';
-import Links from "../../components/links/links";
 
 const Home = () => {
     return (
@@ -19,12 +13,23 @@ const Home = () => {
             <Container>
                 <div className="home__info">
                     <div className="home__info-title">
-                        Front-End React Developer
+                        Isa Ingashev
                     </div>
-                    <div className="home__info-text">
-                        Hi, I'm Isa Ingashev. A passionate front-end developer based in İzmir / Türkiye 📍
+                    <div className="home__info-block">
+                        <p>
+                            I'm frontend developer.
+                        </p>
+                        <p>
+                            I ❤️ <b>JavaScript</b>, <b>ReactJS</b> and <b>UI design</b>.
+                        </p>
+                        <p className="links">
+                            <a href="https://github.com/unnamed-ii">GitHub</a>
+                            <a href="mailto:isaingashev@gmail.com">Email</a>
+                            <a href="https://t.me/unnamedii">Telegram</a>
+                            <a href="https://www.linkedin.com/in/isa-ingashev/">LinkedIn</a>
+                            <a href="https://leetcode.com/unnamed-II/">LeetCode</a>
+                        </p>
                     </div>
-                    <Links />
                     <ul className="home__info-stack">
                         <li><HtmlIcon className="icon"/></li>
                         <li><CssIcon className="icon"/></li>
